@@ -1,4 +1,4 @@
-module github.com/baernary/bnrstorage
+module github.com/bearnary/bnrstorage
 
 go 1.21.4
 
