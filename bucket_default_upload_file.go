@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/minio/minio-go/v7"
 	"github.com/mitchellh/mapstructure"
 )
 

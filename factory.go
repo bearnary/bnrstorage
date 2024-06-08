@@ -13,7 +13,7 @@ type defaultMainBucketFactory struct {
 
 func RegisterMainStorageBucket(ctx context.Context, client Client, storageBucketName string) error {
 
-	b, vErr := client.SelectBucket(ctx, storageBucketName)
+	b, vErr := client.SelectBucket(storageBucketName)
 	if vErr != nil {
 		return vErr
 	}
